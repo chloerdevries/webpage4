@@ -35,6 +35,7 @@ a{
   padding: 15px;
   margin-bottom: -2px;
   margin: 15px ;
+  justify-content: center;
 }
 a:hover{
   background: #FFF;
