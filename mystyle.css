@@ -20,9 +20,16 @@ background: #F5D8C7 ;
 }
 
 h1{
+  font-family: FjallaOne;
   text-align: center;
   color: #DF785A;
   padding: 15px
+}
+
+h3{
+    font-family: Hind;
+    text-align: center;
+    color: #DF785A;
 }
 
 #container{
@@ -33,9 +40,11 @@ width: 500px;
 }
 
 #content-box{
+font-family: Teko;
 background: white ;
 padding: 15px;
 margin: 15px;
+color: #F5D8C7;
 }
 
 ul{
@@ -46,6 +55,7 @@ ul{
 }
 
 a{
+  font-family: teko;
   position: relative;
   text-decoration:none;
   background: #DF785A ;
@@ -54,6 +64,7 @@ a{
   margin: 15px ;
   color: #FFF;
 }
+
 a:hover{
   background: #FFF;
   color:#DF785A ;
