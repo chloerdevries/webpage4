@@ -1,0 +1,42 @@
+body{
+display: flex ;
+justify-content: center;
+background: #F5D8C7 ;
+}
+
+#container{
+position: relative;
+top: 100px;
+background: #FAECE3 ;
+width: 500 px;
+}
+
+#content-box{
+background: white ;
+padding: 15px;
+margin: 15px;
+
+}
+
+h1{
+  color: #DF785A
+}
+ul{
+  list-style-type: none;
+  padding: 0px ;
+  display: flex;
+  justify-content: left;
+}
+
+a{
+  position: relative;
+  text-decoration:none;
+  background: #DF785A ;
+  padding: 15px;
+  margin-bottom: -2px;
+  margin: 15px ;
+}
+a:hover{
+  background: #FFF;
+
+}
