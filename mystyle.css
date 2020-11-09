@@ -69,3 +69,47 @@ a:hover{
   background: #FFF;
   color:#DF785A ;
 }
+
+#slider {
+Overflow: hidden;
+}
+#slider figure {
+Position: relative;
+Width: 500%;
+Margin: 0;
+Left: 0;
+Animation: 20s slider infinite;
+}
+
+#slider figure img {
+Width: 20%;
+Float: left;
+
+@keyframes slider {
+0% {
+Left: 0;
+}
+20% {
+Left: 0;
+}
+25%{
+Left: -100%;
+}
+45% {
+Left: -100;
+}
+50% {
+Left: -200%;
+}
+70% {
+Left: -200%;
+}
+75% {
+Left: -300%;
+}
+95% {
+Left: -300%;
+}
+100% {
+Left: -400%;
+}
