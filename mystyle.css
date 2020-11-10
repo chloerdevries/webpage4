@@ -16,7 +16,13 @@
 body{
 display: flex ;
 justify-content: center;
-background: #F5D8C7 ;
+background: repeating-linear-gradient(
+  45deg,
+  #F5D8C7,
+  #F5D8C7 10px,
+  #F1CDBF 10px,
+  #F1CDBF 20px
+);
 }
 
 h1{
@@ -65,10 +71,16 @@ a{
   color: #FFF;
 }
 
-hero-image{
+#hero-image{
   display: flex;
   justify-content: center;
 }
+
+#hero-image img {
+  width: 250px;
+  height: 250px;
+}
+
 
 a:hover{
   background: #FFF;
